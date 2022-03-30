@@ -1,0 +1,2192 @@
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="apilog" tag="apilog" timestamp="3/30/2022 12:06:41 PM">
+	<statusnotification AgentStatus="ok" strV4ProtectionStatus="odnsTrustedNetwork" strV6ProtectionStatus="disabled" strV4IpBlockingStatus="notProtected" bV4IpBlockingConnectionError="Disabled" strV6IpBlockingStatus="notProtected" bV6IpBlockingConnectionError="Disabled" strClientName="hashokkx-mobl" strUserName="" timeLastConnected="1648622201" bLoggingEnabled="Disabled" strSWGAgentStatus="unprotected"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 12:06:41 PM" state="Good">
+	<label id="simple_tile_label" value="Roaming Security:" tooltip="Navigate to Roaming Security Advanced Window" color="black" hidden="false" disabled="false"/>
+	<label id="simple_status" value="Umbrella is active." tooltip="" color="black" hidden="false" disabled="false"/>
+	<label id="simple_second_status" value=" " tooltip="" color="black" hidden="false" disabled="false"/>
+	<traystate id="tray_state_string" value="Active."/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 12:06:41 PM">
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_opendns">
+			<listrowcolumn label="Roaming Security"/>
+			<listrow id="stat_id_ipv4_DNS_protection">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled (trusted network)"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_DNS_protection">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 12:06:41 PM"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 12:06:41 PM">
+	<preferences/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_connection_info">
+			<listrowcolumn label="DNS/IP Security Information"/>
+			<listrow id="stat_id_ipv4_protection_status">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled (trusted network)"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_dns_encryption">
+				<listrowcolumn label="IPv4 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_blocking">
+				<listrowcolumn label="IPv4 Enforcement Status:"/>
+				<listrowcolumn label="Unprotected"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_protection_status">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_dns_encryption">
+				<listrowcolumn label="IPv6 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_client_name">
+				<listrowcolumn label="Client Name:"/>
+				<listrowcolumn label="hashokkx-mobl"/>
+			</listrow>
+			<listrow id="stat_id_user_name">
+				<listrowcolumn label="User Name:"/>
+				<listrowcolumn label=""/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 12:06:41 PM"/>
+			</listrow>
+			<listrow id="stat_id_logging">
+				<listrowcolumn label="Logging:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="stat_group_swg_info">
+			<listrowcolumn label="Secure Web Gateway:"/>
+			<listrow id="stat_id_SWG_license_status">
+				<listrowcolumn label="License"/>
+				<listrowcolumn label="Invalid"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" tag="stat_update" timestamp="3/30/2022 12:16:13 PM">
+	<label id="simple_substatus_left" value="01:49:51 (10 Hours 10 Minutes Remaining)"/>
+	<label id="simple_substatus_right" value="IPv4"/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_connection_info">
+			<listrowcolumn label="Connection Information"/>
+			<listrow id="id_stat_state">
+				<listrowcolumn label="State:"/>
+				<listrowcolumn label="Connected"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Tunnel Mode (IPv4):"/>
+				<listrowcolumn label="Split Exclude"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Tunnel Mode (IPv6):"/>
+				<listrowcolumn label="Drop All Traffic"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_exc">
+				<listrowcolumn label="Dynamic Tunnel Exclusion:"/>
+				<listrowcolumn label="accompany.com amrcmcmg01.blob.core.windows.net amrcmcmg01.intel.com amrcmcmg01.table.core.windows.net bmc.cdn.office.net ec.hls.kontiki.com ec.kontiki.com ec.live.kontiki.com eu1.kontiki.com garcmcmg01.blob.core.windows.net garcmcmg01.intel.com garcmcmg01.table.core.windows.net gercmcmg01.blob.core.windows.net gercmcmg01.intel.com gercmcmg01.table.core.windows.net kollective.app quovadisglobal.com wc1.kontiki.com webex.com"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_inc">
+				<listrowcolumn label="Dynamic Tunnel Inclusion:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Duration:"/>
+				<listrowcolumn label="01:49:51"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect:"/>
+				<listrowcolumn label="10 Hours 10 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_stat_mgmt_tun_state">
+				<listrowcolumn label="Management Connection State:"/>
+				<listrowcolumn label="Disconnected (user tunnel active)"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_addr_info">
+			<listrowcolumn label="Address Information"/>
+			<listrow id="id_client_addr_ipv4">
+				<listrowcolumn label="Client (IPv4):"/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_client_addr_ipv6">
+				<listrowcolumn label="Client (IPv6):"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server:"/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_bytes">
+			<listrowcolumn label="Bytes"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="38975969"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="57625344"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_frames">
+			<listrowcolumn label="Frames"/>
+			<listrow id="id_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="82892"/>
+			</listrow>
+			<listrow id="id_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="89048"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_ctrl_frames">
+			<listrowcolumn label="Control Frames"/>
+			<listrow id="id_ctrl_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="551"/>
+			</listrow>
+			<listrow id="id_ctrl_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="225"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_client_mgmt">
+			<listrowcolumn label="Client Management"/>
+			<listrow id="id_admin_domain">
+				<listrowcolumn label="Administrative Domain:"/>
+				<listrowcolumn label="Undefined"/>
+			</listrow>
+			<listrow id="id_profile_name">
+				<listrowcolumn label="Profile Name:"/>
+				<listrowcolumn label="NetSecAnyConnect.xml"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_transport_info">
+			<listrowcolumn label="Transport Information"/>
+			<listrow id="id_protocol">
+				<listrowcolumn label="Protocol:"/>
+				<listrowcolumn label="DTLSv1.2"/>
+			</listrow>
+			<listrow id="id_cipher">
+				<listrowcolumn label="Cipher:"/>
+				<listrowcolumn label="ECDHE_ECDSA_AES256_GCM_SHA384"/>
+			</listrow>
+			<listrow id="id_compression">
+				<listrowcolumn label="Compression:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_proxy_addr">
+				<listrowcolumn label="Proxy Address:"/>
+				<listrowcolumn label="No Proxy"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_feature_config">
+			<listrowcolumn label="Feature Configuration"/>
+			<listrow id="id_fips_mode">
+				<listrowcolumn label="FIPS Mode:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="id_tnd_mode">
+				<listrowcolumn label="Trusted Network Detection:"/>
+				<listrowcolumn label="Enabled"/>
+			</listrow>
+			<listrow id="id_always_on_mode">
+				<listrowcolumn label="Always On:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_sms">
+			<listrowcolumn label="Secure Mobility Solution"/>
+			<listrow id="id_secure_mobility_soln_status">
+				<listrowcolumn label="Status:"/>
+				<listrowcolumn label="Unconfirmed"/>
+			</listrow>
+			<listrow id="id_secure_mobility_soln_appl">
+				<listrowcolumn label="Appliance:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_vpn">
+			<listrowcolumn label="VPN (Connected)"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Bytes Sent: "/>
+				<listrowcolumn label="38975969"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Bytes Received: "/>
+				<listrowcolumn label="57625344"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Time Connected: "/>
+				<listrowcolumn label="01:49:51"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect: "/>
+				<listrowcolumn label="10 Hours 10 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Client Address (IPv4): "/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Client Address (IPv6): "/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server Address: "/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" tag="stat_update" timestamp="3/30/2022 12:26:14 PM">
+	<label id="simple_substatus_left" value="01:59:52 (10 Hours Remaining)"/>
+	<label id="simple_substatus_right" value="IPv4"/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_connection_info">
+			<listrowcolumn label="Connection Information"/>
+			<listrow id="id_stat_state">
+				<listrowcolumn label="State:"/>
+				<listrowcolumn label="Connected"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Tunnel Mode (IPv4):"/>
+				<listrowcolumn label="Split Exclude"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Tunnel Mode (IPv6):"/>
+				<listrowcolumn label="Drop All Traffic"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_exc">
+				<listrowcolumn label="Dynamic Tunnel Exclusion:"/>
+				<listrowcolumn label="accompany.com amrcmcmg01.blob.core.windows.net amrcmcmg01.intel.com amrcmcmg01.table.core.windows.net bmc.cdn.office.net ec.hls.kontiki.com ec.kontiki.com ec.live.kontiki.com eu1.kontiki.com garcmcmg01.blob.core.windows.net garcmcmg01.intel.com garcmcmg01.table.core.windows.net gercmcmg01.blob.core.windows.net gercmcmg01.intel.com gercmcmg01.table.core.windows.net kollective.app quovadisglobal.com wc1.kontiki.com webex.com"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_inc">
+				<listrowcolumn label="Dynamic Tunnel Inclusion:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Duration:"/>
+				<listrowcolumn label="01:59:52"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect:"/>
+				<listrowcolumn label="10 Hours Remaining"/>
+			</listrow>
+			<listrow id="id_stat_mgmt_tun_state">
+				<listrowcolumn label="Management Connection State:"/>
+				<listrowcolumn label="Disconnected (user tunnel active)"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_addr_info">
+			<listrowcolumn label="Address Information"/>
+			<listrow id="id_client_addr_ipv4">
+				<listrowcolumn label="Client (IPv4):"/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_client_addr_ipv6">
+				<listrowcolumn label="Client (IPv6):"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server:"/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_bytes">
+			<listrowcolumn label="Bytes"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="40041097"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="58880381"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_frames">
+			<listrowcolumn label="Frames"/>
+			<listrow id="id_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="85827"/>
+			</listrow>
+			<listrow id="id_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="92154"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_ctrl_frames">
+			<listrowcolumn label="Control Frames"/>
+			<listrow id="id_ctrl_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="597"/>
+			</listrow>
+			<listrow id="id_ctrl_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="245"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_client_mgmt">
+			<listrowcolumn label="Client Management"/>
+			<listrow id="id_admin_domain">
+				<listrowcolumn label="Administrative Domain:"/>
+				<listrowcolumn label="Undefined"/>
+			</listrow>
+			<listrow id="id_profile_name">
+				<listrowcolumn label="Profile Name:"/>
+				<listrowcolumn label="NetSecAnyConnect.xml"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_transport_info">
+			<listrowcolumn label="Transport Information"/>
+			<listrow id="id_protocol">
+				<listrowcolumn label="Protocol:"/>
+				<listrowcolumn label="DTLSv1.2"/>
+			</listrow>
+			<listrow id="id_cipher">
+				<listrowcolumn label="Cipher:"/>
+				<listrowcolumn label="ECDHE_ECDSA_AES256_GCM_SHA384"/>
+			</listrow>
+			<listrow id="id_compression">
+				<listrowcolumn label="Compression:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_proxy_addr">
+				<listrowcolumn label="Proxy Address:"/>
+				<listrowcolumn label="No Proxy"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_feature_config">
+			<listrowcolumn label="Feature Configuration"/>
+			<listrow id="id_fips_mode">
+				<listrowcolumn label="FIPS Mode:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="id_tnd_mode">
+				<listrowcolumn label="Trusted Network Detection:"/>
+				<listrowcolumn label="Enabled"/>
+			</listrow>
+			<listrow id="id_always_on_mode">
+				<listrowcolumn label="Always On:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_sms">
+			<listrowcolumn label="Secure Mobility Solution"/>
+			<listrow id="id_secure_mobility_soln_status">
+				<listrowcolumn label="Status:"/>
+				<listrowcolumn label="Unconfirmed"/>
+			</listrow>
+			<listrow id="id_secure_mobility_soln_appl">
+				<listrowcolumn label="Appliance:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_vpn">
+			<listrowcolumn label="VPN (Connected)"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Bytes Sent: "/>
+				<listrowcolumn label="40041097"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Bytes Received: "/>
+				<listrowcolumn label="58880381"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Time Connected: "/>
+				<listrowcolumn label="01:59:52"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect: "/>
+				<listrowcolumn label="10 Hours Remaining"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Client Address (IPv4): "/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Client Address (IPv6): "/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server Address: "/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="apilog" tag="apilog" timestamp="3/30/2022 12:34:42 PM">
+	<statusnotification AgentStatus="ok" strV4ProtectionStatus="odnsTrustedNetwork" strV6ProtectionStatus="disabled" strV4IpBlockingStatus="notProtected" bV4IpBlockingConnectionError="Disabled" strV6IpBlockingStatus="notProtected" bV6IpBlockingConnectionError="Disabled" strClientName="hashokkx-mobl" strUserName="" timeLastConnected="1648623882" bLoggingEnabled="Disabled" strSWGAgentStatus="unprotected"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 12:34:42 PM" state="Good">
+	<label id="simple_tile_label" value="Roaming Security:" tooltip="Navigate to Roaming Security Advanced Window" color="black" hidden="false" disabled="false"/>
+	<label id="simple_status" value="Umbrella is active." tooltip="" color="black" hidden="false" disabled="false"/>
+	<label id="simple_second_status" value=" " tooltip="" color="black" hidden="false" disabled="false"/>
+	<traystate id="tray_state_string" value="Active."/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 12:34:42 PM">
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_opendns">
+			<listrowcolumn label="Roaming Security"/>
+			<listrow id="stat_id_ipv4_DNS_protection">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled (trusted network)"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_DNS_protection">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 12:34:42 PM"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 12:34:42 PM">
+	<preferences/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_connection_info">
+			<listrowcolumn label="DNS/IP Security Information"/>
+			<listrow id="stat_id_ipv4_protection_status">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled (trusted network)"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_dns_encryption">
+				<listrowcolumn label="IPv4 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_blocking">
+				<listrowcolumn label="IPv4 Enforcement Status:"/>
+				<listrowcolumn label="Unprotected"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_protection_status">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_dns_encryption">
+				<listrowcolumn label="IPv6 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_client_name">
+				<listrowcolumn label="Client Name:"/>
+				<listrowcolumn label="hashokkx-mobl"/>
+			</listrow>
+			<listrow id="stat_id_user_name">
+				<listrowcolumn label="User Name:"/>
+				<listrowcolumn label=""/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 12:34:42 PM"/>
+			</listrow>
+			<listrow id="stat_id_logging">
+				<listrowcolumn label="Logging:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="stat_group_swg_info">
+			<listrowcolumn label="Secure Web Gateway:"/>
+			<listrow id="stat_id_SWG_license_status">
+				<listrowcolumn label="License"/>
+				<listrowcolumn label="Invalid"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" tag="stat_update" timestamp="3/30/2022 12:36:15 PM">
+	<label id="simple_substatus_left" value="02:09:53 (9 Hours 50 Minutes Remaining)"/>
+	<label id="simple_substatus_right" value="IPv4"/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_connection_info">
+			<listrowcolumn label="Connection Information"/>
+			<listrow id="id_stat_state">
+				<listrowcolumn label="State:"/>
+				<listrowcolumn label="Connected"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Tunnel Mode (IPv4):"/>
+				<listrowcolumn label="Split Exclude"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Tunnel Mode (IPv6):"/>
+				<listrowcolumn label="Drop All Traffic"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_exc">
+				<listrowcolumn label="Dynamic Tunnel Exclusion:"/>
+				<listrowcolumn label="accompany.com amrcmcmg01.blob.core.windows.net amrcmcmg01.intel.com amrcmcmg01.table.core.windows.net bmc.cdn.office.net ec.hls.kontiki.com ec.kontiki.com ec.live.kontiki.com eu1.kontiki.com garcmcmg01.blob.core.windows.net garcmcmg01.intel.com garcmcmg01.table.core.windows.net gercmcmg01.blob.core.windows.net gercmcmg01.intel.com gercmcmg01.table.core.windows.net kollective.app quovadisglobal.com wc1.kontiki.com webex.com"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_inc">
+				<listrowcolumn label="Dynamic Tunnel Inclusion:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Duration:"/>
+				<listrowcolumn label="02:09:53"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect:"/>
+				<listrowcolumn label="9 Hours 50 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_stat_mgmt_tun_state">
+				<listrowcolumn label="Management Connection State:"/>
+				<listrowcolumn label="Disconnected (user tunnel active)"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_addr_info">
+			<listrowcolumn label="Address Information"/>
+			<listrow id="id_client_addr_ipv4">
+				<listrowcolumn label="Client (IPv4):"/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_client_addr_ipv6">
+				<listrowcolumn label="Client (IPv6):"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server:"/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_bytes">
+			<listrowcolumn label="Bytes"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="41113545"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="60154839"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_frames">
+			<listrowcolumn label="Frames"/>
+			<listrow id="id_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="88673"/>
+			</listrow>
+			<listrow id="id_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="95264"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_ctrl_frames">
+			<listrowcolumn label="Control Frames"/>
+			<listrow id="id_ctrl_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="647"/>
+			</listrow>
+			<listrow id="id_ctrl_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="265"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_client_mgmt">
+			<listrowcolumn label="Client Management"/>
+			<listrow id="id_admin_domain">
+				<listrowcolumn label="Administrative Domain:"/>
+				<listrowcolumn label="Undefined"/>
+			</listrow>
+			<listrow id="id_profile_name">
+				<listrowcolumn label="Profile Name:"/>
+				<listrowcolumn label="NetSecAnyConnect.xml"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_transport_info">
+			<listrowcolumn label="Transport Information"/>
+			<listrow id="id_protocol">
+				<listrowcolumn label="Protocol:"/>
+				<listrowcolumn label="DTLSv1.2"/>
+			</listrow>
+			<listrow id="id_cipher">
+				<listrowcolumn label="Cipher:"/>
+				<listrowcolumn label="ECDHE_ECDSA_AES256_GCM_SHA384"/>
+			</listrow>
+			<listrow id="id_compression">
+				<listrowcolumn label="Compression:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_proxy_addr">
+				<listrowcolumn label="Proxy Address:"/>
+				<listrowcolumn label="No Proxy"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_feature_config">
+			<listrowcolumn label="Feature Configuration"/>
+			<listrow id="id_fips_mode">
+				<listrowcolumn label="FIPS Mode:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="id_tnd_mode">
+				<listrowcolumn label="Trusted Network Detection:"/>
+				<listrowcolumn label="Enabled"/>
+			</listrow>
+			<listrow id="id_always_on_mode">
+				<listrowcolumn label="Always On:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_sms">
+			<listrowcolumn label="Secure Mobility Solution"/>
+			<listrow id="id_secure_mobility_soln_status">
+				<listrowcolumn label="Status:"/>
+				<listrowcolumn label="Unconfirmed"/>
+			</listrow>
+			<listrow id="id_secure_mobility_soln_appl">
+				<listrowcolumn label="Appliance:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_vpn">
+			<listrowcolumn label="VPN (Connected)"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Bytes Sent: "/>
+				<listrowcolumn label="41113545"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Bytes Received: "/>
+				<listrowcolumn label="60154839"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Time Connected: "/>
+				<listrowcolumn label="02:09:53"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect: "/>
+				<listrowcolumn label="9 Hours 50 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Client Address (IPv4): "/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Client Address (IPv6): "/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server Address: "/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" tag="stat_update" timestamp="3/30/2022 12:46:16 PM">
+	<label id="simple_substatus_left" value="02:19:54 (9 Hours 40 Minutes Remaining)"/>
+	<label id="simple_substatus_right" value="IPv4"/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_connection_info">
+			<listrowcolumn label="Connection Information"/>
+			<listrow id="id_stat_state">
+				<listrowcolumn label="State:"/>
+				<listrowcolumn label="Connected"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Tunnel Mode (IPv4):"/>
+				<listrowcolumn label="Split Exclude"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Tunnel Mode (IPv6):"/>
+				<listrowcolumn label="Drop All Traffic"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_exc">
+				<listrowcolumn label="Dynamic Tunnel Exclusion:"/>
+				<listrowcolumn label="accompany.com amrcmcmg01.blob.core.windows.net amrcmcmg01.intel.com amrcmcmg01.table.core.windows.net bmc.cdn.office.net ec.hls.kontiki.com ec.kontiki.com ec.live.kontiki.com eu1.kontiki.com garcmcmg01.blob.core.windows.net garcmcmg01.intel.com garcmcmg01.table.core.windows.net gercmcmg01.blob.core.windows.net gercmcmg01.intel.com gercmcmg01.table.core.windows.net kollective.app quovadisglobal.com wc1.kontiki.com webex.com"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_inc">
+				<listrowcolumn label="Dynamic Tunnel Inclusion:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Duration:"/>
+				<listrowcolumn label="02:19:54"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect:"/>
+				<listrowcolumn label="9 Hours 40 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_stat_mgmt_tun_state">
+				<listrowcolumn label="Management Connection State:"/>
+				<listrowcolumn label="Disconnected (user tunnel active)"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_addr_info">
+			<listrowcolumn label="Address Information"/>
+			<listrow id="id_client_addr_ipv4">
+				<listrowcolumn label="Client (IPv4):"/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_client_addr_ipv6">
+				<listrowcolumn label="Client (IPv6):"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server:"/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_bytes">
+			<listrowcolumn label="Bytes"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="45574998"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="108105772"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_frames">
+			<listrowcolumn label="Frames"/>
+			<listrow id="id_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="112147"/>
+			</listrow>
+			<listrow id="id_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="136675"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_ctrl_frames">
+			<listrowcolumn label="Control Frames"/>
+			<listrow id="id_ctrl_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="698"/>
+			</listrow>
+			<listrow id="id_ctrl_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="285"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_client_mgmt">
+			<listrowcolumn label="Client Management"/>
+			<listrow id="id_admin_domain">
+				<listrowcolumn label="Administrative Domain:"/>
+				<listrowcolumn label="Undefined"/>
+			</listrow>
+			<listrow id="id_profile_name">
+				<listrowcolumn label="Profile Name:"/>
+				<listrowcolumn label="NetSecAnyConnect.xml"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_transport_info">
+			<listrowcolumn label="Transport Information"/>
+			<listrow id="id_protocol">
+				<listrowcolumn label="Protocol:"/>
+				<listrowcolumn label="DTLSv1.2"/>
+			</listrow>
+			<listrow id="id_cipher">
+				<listrowcolumn label="Cipher:"/>
+				<listrowcolumn label="ECDHE_ECDSA_AES256_GCM_SHA384"/>
+			</listrow>
+			<listrow id="id_compression">
+				<listrowcolumn label="Compression:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_proxy_addr">
+				<listrowcolumn label="Proxy Address:"/>
+				<listrowcolumn label="No Proxy"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_feature_config">
+			<listrowcolumn label="Feature Configuration"/>
+			<listrow id="id_fips_mode">
+				<listrowcolumn label="FIPS Mode:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="id_tnd_mode">
+				<listrowcolumn label="Trusted Network Detection:"/>
+				<listrowcolumn label="Enabled"/>
+			</listrow>
+			<listrow id="id_always_on_mode">
+				<listrowcolumn label="Always On:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_sms">
+			<listrowcolumn label="Secure Mobility Solution"/>
+			<listrow id="id_secure_mobility_soln_status">
+				<listrowcolumn label="Status:"/>
+				<listrowcolumn label="Unconfirmed"/>
+			</listrow>
+			<listrow id="id_secure_mobility_soln_appl">
+				<listrowcolumn label="Appliance:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_vpn">
+			<listrowcolumn label="VPN (Connected)"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Bytes Sent: "/>
+				<listrowcolumn label="45574998"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Bytes Received: "/>
+				<listrowcolumn label="108105772"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Time Connected: "/>
+				<listrowcolumn label="02:19:54"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect: "/>
+				<listrowcolumn label="9 Hours 40 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Client Address (IPv4): "/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Client Address (IPv6): "/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server Address: "/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" tag="stat_update" timestamp="3/30/2022 12:56:17 PM">
+	<label id="simple_substatus_left" value="02:29:55 (9 Hours 30 Minutes Remaining)"/>
+	<label id="simple_substatus_right" value="IPv4"/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_connection_info">
+			<listrowcolumn label="Connection Information"/>
+			<listrow id="id_stat_state">
+				<listrowcolumn label="State:"/>
+				<listrowcolumn label="Connected"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Tunnel Mode (IPv4):"/>
+				<listrowcolumn label="Split Exclude"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Tunnel Mode (IPv6):"/>
+				<listrowcolumn label="Drop All Traffic"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_exc">
+				<listrowcolumn label="Dynamic Tunnel Exclusion:"/>
+				<listrowcolumn label="accompany.com amrcmcmg01.blob.core.windows.net amrcmcmg01.intel.com amrcmcmg01.table.core.windows.net bmc.cdn.office.net ec.hls.kontiki.com ec.kontiki.com ec.live.kontiki.com eu1.kontiki.com garcmcmg01.blob.core.windows.net garcmcmg01.intel.com garcmcmg01.table.core.windows.net gercmcmg01.blob.core.windows.net gercmcmg01.intel.com gercmcmg01.table.core.windows.net kollective.app quovadisglobal.com wc1.kontiki.com webex.com"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_inc">
+				<listrowcolumn label="Dynamic Tunnel Inclusion:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Duration:"/>
+				<listrowcolumn label="02:29:55"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect:"/>
+				<listrowcolumn label="9 Hours 30 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_stat_mgmt_tun_state">
+				<listrowcolumn label="Management Connection State:"/>
+				<listrowcolumn label="Disconnected (user tunnel active)"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_addr_info">
+			<listrowcolumn label="Address Information"/>
+			<listrow id="id_client_addr_ipv4">
+				<listrowcolumn label="Client (IPv4):"/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_client_addr_ipv6">
+				<listrowcolumn label="Client (IPv6):"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server:"/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_bytes">
+			<listrowcolumn label="Bytes"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="48201753"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="111682519"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_frames">
+			<listrowcolumn label="Frames"/>
+			<listrow id="id_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="117300"/>
+			</listrow>
+			<listrow id="id_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="142223"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_ctrl_frames">
+			<listrowcolumn label="Control Frames"/>
+			<listrow id="id_ctrl_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="744"/>
+			</listrow>
+			<listrow id="id_ctrl_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="305"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_client_mgmt">
+			<listrowcolumn label="Client Management"/>
+			<listrow id="id_admin_domain">
+				<listrowcolumn label="Administrative Domain:"/>
+				<listrowcolumn label="Undefined"/>
+			</listrow>
+			<listrow id="id_profile_name">
+				<listrowcolumn label="Profile Name:"/>
+				<listrowcolumn label="NetSecAnyConnect.xml"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_transport_info">
+			<listrowcolumn label="Transport Information"/>
+			<listrow id="id_protocol">
+				<listrowcolumn label="Protocol:"/>
+				<listrowcolumn label="DTLSv1.2"/>
+			</listrow>
+			<listrow id="id_cipher">
+				<listrowcolumn label="Cipher:"/>
+				<listrowcolumn label="ECDHE_ECDSA_AES256_GCM_SHA384"/>
+			</listrow>
+			<listrow id="id_compression">
+				<listrowcolumn label="Compression:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_proxy_addr">
+				<listrowcolumn label="Proxy Address:"/>
+				<listrowcolumn label="No Proxy"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_feature_config">
+			<listrowcolumn label="Feature Configuration"/>
+			<listrow id="id_fips_mode">
+				<listrowcolumn label="FIPS Mode:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="id_tnd_mode">
+				<listrowcolumn label="Trusted Network Detection:"/>
+				<listrowcolumn label="Enabled"/>
+			</listrow>
+			<listrow id="id_always_on_mode">
+				<listrowcolumn label="Always On:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_sms">
+			<listrowcolumn label="Secure Mobility Solution"/>
+			<listrow id="id_secure_mobility_soln_status">
+				<listrowcolumn label="Status:"/>
+				<listrowcolumn label="Unconfirmed"/>
+			</listrow>
+			<listrow id="id_secure_mobility_soln_appl">
+				<listrowcolumn label="Appliance:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_vpn">
+			<listrowcolumn label="VPN (Connected)"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Bytes Sent: "/>
+				<listrowcolumn label="48201753"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Bytes Received: "/>
+				<listrowcolumn label="111682519"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Time Connected: "/>
+				<listrowcolumn label="02:29:55"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect: "/>
+				<listrowcolumn label="9 Hours 30 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Client Address (IPv4): "/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Client Address (IPv6): "/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server Address: "/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="apilog" tag="apilog" timestamp="3/30/2022 1:01:44 PM">
+	<statusnotification AgentStatus="ok" strV4ProtectionStatus="odnsTrustedNetwork" strV6ProtectionStatus="disabled" strV4IpBlockingStatus="notProtected" bV4IpBlockingConnectionError="Disabled" strV6IpBlockingStatus="notProtected" bV6IpBlockingConnectionError="Disabled" strClientName="hashokkx-mobl" strUserName="" timeLastConnected="1648625504" bLoggingEnabled="Disabled" strSWGAgentStatus="unprotected"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:01:44 PM" state="Good">
+	<label id="simple_tile_label" value="Roaming Security:" tooltip="Navigate to Roaming Security Advanced Window" color="black" hidden="false" disabled="false"/>
+	<label id="simple_status" value="Umbrella is active." tooltip="" color="black" hidden="false" disabled="false"/>
+	<label id="simple_second_status" value=" " tooltip="" color="black" hidden="false" disabled="false"/>
+	<traystate id="tray_state_string" value="Active."/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:01:44 PM">
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_opendns">
+			<listrowcolumn label="Roaming Security"/>
+			<listrow id="stat_id_ipv4_DNS_protection">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled (trusted network)"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_DNS_protection">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:01:44 PM"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:01:44 PM">
+	<preferences/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_connection_info">
+			<listrowcolumn label="DNS/IP Security Information"/>
+			<listrow id="stat_id_ipv4_protection_status">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled (trusted network)"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_dns_encryption">
+				<listrowcolumn label="IPv4 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_blocking">
+				<listrowcolumn label="IPv4 Enforcement Status:"/>
+				<listrowcolumn label="Unprotected"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_protection_status">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_dns_encryption">
+				<listrowcolumn label="IPv6 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_client_name">
+				<listrowcolumn label="Client Name:"/>
+				<listrowcolumn label="hashokkx-mobl"/>
+			</listrow>
+			<listrow id="stat_id_user_name">
+				<listrowcolumn label="User Name:"/>
+				<listrowcolumn label=""/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:01:44 PM"/>
+			</listrow>
+			<listrow id="stat_id_logging">
+				<listrowcolumn label="Logging:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="stat_group_swg_info">
+			<listrowcolumn label="Secure Web Gateway:"/>
+			<listrow id="stat_id_SWG_license_status">
+				<listrowcolumn label="License"/>
+				<listrowcolumn label="Invalid"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" tag="stat_update" timestamp="3/30/2022 1:06:18 PM">
+	<label id="simple_substatus_left" value="02:39:56 (9 Hours 20 Minutes Remaining)"/>
+	<label id="simple_substatus_right" value="IPv4"/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_connection_info">
+			<listrowcolumn label="Connection Information"/>
+			<listrow id="id_stat_state">
+				<listrowcolumn label="State:"/>
+				<listrowcolumn label="Connected"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Tunnel Mode (IPv4):"/>
+				<listrowcolumn label="Split Exclude"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Tunnel Mode (IPv6):"/>
+				<listrowcolumn label="Drop All Traffic"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_exc">
+				<listrowcolumn label="Dynamic Tunnel Exclusion:"/>
+				<listrowcolumn label="accompany.com amrcmcmg01.blob.core.windows.net amrcmcmg01.intel.com amrcmcmg01.table.core.windows.net bmc.cdn.office.net ec.hls.kontiki.com ec.kontiki.com ec.live.kontiki.com eu1.kontiki.com garcmcmg01.blob.core.windows.net garcmcmg01.intel.com garcmcmg01.table.core.windows.net gercmcmg01.blob.core.windows.net gercmcmg01.intel.com gercmcmg01.table.core.windows.net kollective.app quovadisglobal.com wc1.kontiki.com webex.com"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_inc">
+				<listrowcolumn label="Dynamic Tunnel Inclusion:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Duration:"/>
+				<listrowcolumn label="02:39:56"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect:"/>
+				<listrowcolumn label="9 Hours 20 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_stat_mgmt_tun_state">
+				<listrowcolumn label="Management Connection State:"/>
+				<listrowcolumn label="Disconnected (user tunnel active)"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_addr_info">
+			<listrowcolumn label="Address Information"/>
+			<listrow id="id_client_addr_ipv4">
+				<listrowcolumn label="Client (IPv4):"/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_client_addr_ipv6">
+				<listrowcolumn label="Client (IPv6):"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server:"/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_bytes">
+			<listrowcolumn label="Bytes"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="51120213"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="124043982"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_frames">
+			<listrowcolumn label="Frames"/>
+			<listrow id="id_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="128256"/>
+			</listrow>
+			<listrow id="id_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="157384"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_ctrl_frames">
+			<listrowcolumn label="Control Frames"/>
+			<listrow id="id_ctrl_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="795"/>
+			</listrow>
+			<listrow id="id_ctrl_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="326"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_client_mgmt">
+			<listrowcolumn label="Client Management"/>
+			<listrow id="id_admin_domain">
+				<listrowcolumn label="Administrative Domain:"/>
+				<listrowcolumn label="Undefined"/>
+			</listrow>
+			<listrow id="id_profile_name">
+				<listrowcolumn label="Profile Name:"/>
+				<listrowcolumn label="NetSecAnyConnect.xml"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_transport_info">
+			<listrowcolumn label="Transport Information"/>
+			<listrow id="id_protocol">
+				<listrowcolumn label="Protocol:"/>
+				<listrowcolumn label="DTLSv1.2"/>
+			</listrow>
+			<listrow id="id_cipher">
+				<listrowcolumn label="Cipher:"/>
+				<listrowcolumn label="ECDHE_ECDSA_AES256_GCM_SHA384"/>
+			</listrow>
+			<listrow id="id_compression">
+				<listrowcolumn label="Compression:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_proxy_addr">
+				<listrowcolumn label="Proxy Address:"/>
+				<listrowcolumn label="No Proxy"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_feature_config">
+			<listrowcolumn label="Feature Configuration"/>
+			<listrow id="id_fips_mode">
+				<listrowcolumn label="FIPS Mode:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="id_tnd_mode">
+				<listrowcolumn label="Trusted Network Detection:"/>
+				<listrowcolumn label="Enabled"/>
+			</listrow>
+			<listrow id="id_always_on_mode">
+				<listrowcolumn label="Always On:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_sms">
+			<listrowcolumn label="Secure Mobility Solution"/>
+			<listrow id="id_secure_mobility_soln_status">
+				<listrowcolumn label="Status:"/>
+				<listrowcolumn label="Unconfirmed"/>
+			</listrow>
+			<listrow id="id_secure_mobility_soln_appl">
+				<listrowcolumn label="Appliance:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_vpn">
+			<listrowcolumn label="VPN (Connected)"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Bytes Sent: "/>
+				<listrowcolumn label="51120213"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Bytes Received: "/>
+				<listrowcolumn label="124043982"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Time Connected: "/>
+				<listrowcolumn label="02:39:56"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect: "/>
+				<listrowcolumn label="9 Hours 20 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Client Address (IPv4): "/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Client Address (IPv6): "/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server Address: "/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" timestamp="3/30/2022 1:08:19 PM" state="Transition">
+	<traystate id="tray_state_string" value="Reconnecting"/>
+	<button id="stat_reset_btn" disabled="true"/>
+	<button id="simple_action_btn" label="Disconnect" tooltip="Disconnect" disabled="false" focus="true"/>
+	<menuitem id="vpn_connect_toggle_menu_item" label="Disconnect" disabled="false"/>
+	<combobox id="simple_headend_combobox" disabled="true"/>
+	<checkbox id="AutoConnectOnStart" disabled="true"/>
+	<checkbox id="MinimizeOnConnect" disabled="true"/>
+	<checkbox id="LocalLanAccess" disabled="true"/>
+	<checkbox id="DisableCaptivePortalDetection" disabled="true"/>
+	<checkbox id="AutoReconnect" disabled="true"/>
+	<label id="AutoReconnectBehavior_lbl" disabled="true"/>
+	<combobox id="AutoReconnectBehavior" disabled="true"/>
+	<checkbox id="BlockUntrustedServers" disabled="true"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="popup">
+	<popup timestamp="3/30/2022 1:08:19 PM" id="" type="notification">
+		<text value="Reconnecting: GAR India Bangalore SRR - Web Sec" sensitive="false"/>
+	</popup>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" timestamp="3/30/2022 1:08:19 PM">
+	<label id="simple_status" value="Reconnecting to GAR India Bangalore SRR - Web Sec..." tooltip="Reconnecting to GAR India Bangalore SRR - Web Sec..." sensitive="false"/>
+	<log messagehistory="Reconnecting to GAR India Bangalore SRR - Web Sec..." sensitive="false"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="apilog" tag="apilog" timestamp="3/30/2022 1:08:20 PM">
+	<statusnotification AgentStatus="ok" strV4ProtectionStatus="reserved" strV6ProtectionStatus="disabled" strV4IpBlockingStatus="notProtected" bV4IpBlockingConnectionError="Disabled" strV6IpBlockingStatus="notProtected" bV6IpBlockingConnectionError="Disabled" strClientName="hashokkx-mobl" strUserName="" timeLastConnected="1648625504" bLoggingEnabled="Disabled" strSWGAgentStatus="unprotected"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:08:20 PM" state="Good">
+	<label id="simple_tile_label" value="Roaming Security:" tooltip="Navigate to Roaming Security Advanced Window" color="black" hidden="false" disabled="false"/>
+	<label id="simple_status" value="Umbrella is active." tooltip="" color="black" hidden="false" disabled="false"/>
+	<label id="simple_second_status" value=" " tooltip="" color="black" hidden="false" disabled="false"/>
+	<traystate id="tray_state_string" value="Active."/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:08:20 PM">
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_opendns">
+			<listrowcolumn label="Roaming Security"/>
+			<listrow id="stat_id_ipv4_DNS_protection">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_DNS_protection">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:01:44 PM"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:08:20 PM">
+	<preferences/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_connection_info">
+			<listrowcolumn label="DNS/IP Security Information"/>
+			<listrow id="stat_id_ipv4_protection_status">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_dns_encryption">
+				<listrowcolumn label="IPv4 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_blocking">
+				<listrowcolumn label="IPv4 Enforcement Status:"/>
+				<listrowcolumn label="Unprotected"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_protection_status">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_dns_encryption">
+				<listrowcolumn label="IPv6 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_client_name">
+				<listrowcolumn label="Client Name:"/>
+				<listrowcolumn label="hashokkx-mobl"/>
+			</listrow>
+			<listrow id="stat_id_user_name">
+				<listrowcolumn label="User Name:"/>
+				<listrowcolumn label=""/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:01:44 PM"/>
+			</listrow>
+			<listrow id="stat_id_logging">
+				<listrowcolumn label="Logging:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="stat_group_swg_info">
+			<listrowcolumn label="Secure Web Gateway:"/>
+			<listrow id="stat_id_SWG_license_status">
+				<listrowcolumn label="License"/>
+				<listrowcolumn label="Invalid"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" timestamp="3/30/2022 1:08:20 PM">
+	<label id="simple_status" value="Establishing VPN - Examining system..." tooltip="Establishing VPN - Examining system..." sensitive="false"/>
+	<log messagehistory="Establishing VPN - Examining system..." sensitive="false"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" timestamp="3/30/2022 1:08:20 PM">
+	<label id="simple_status" value="Establishing VPN - Activating VPN adapter..." tooltip="Establishing VPN - Activating VPN adapter..." sensitive="false"/>
+	<log messagehistory="Establishing VPN - Activating VPN adapter..." sensitive="false"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" timestamp="3/30/2022 1:08:20 PM">
+	<label id="simple_status" value="Establishing VPN - Configuring system..." tooltip="Establishing VPN - Configuring system..." sensitive="false"/>
+	<log messagehistory="Establishing VPN - Configuring system..." sensitive="false"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" timestamp="3/30/2022 1:08:20 PM">
+	<label id="simple_status" value="Establishing VPN..." tooltip="Establishing VPN..." sensitive="false"/>
+	<log messagehistory="Establishing VPN..." sensitive="false"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" timestamp="3/30/2022 1:08:20 PM" state="Good">
+	<traystate id="tray_state_string" value="Connected"/>
+	<button id="stat_reset_btn" disabled="false"/>
+	<button id="simple_action_btn" label="Disconnect" tooltip="Disconnect" disabled="false" focus="true"/>
+	<menuitem id="vpn_connect_toggle_menu_item" label="Disconnect" disabled="false"/>
+	<combobox id="simple_headend_combobox" disabled="true" editable="true">
+		<comboitem label=" Intel Network - Web Sec"/>
+		<comboitem label="AMR Folsom CA - Web Sec"/>
+		<comboitem label="AMR Fort Collins CO - Web Sec"/>
+		<comboitem label="AMR Hudson MA - Web Sec"/>
+		<comboitem label="AMR Jones Farm OR - Web Sec"/>
+		<comboitem label="AMR Austin TX - Web Sec"/>
+		<comboitem label="CCR China Shanghai Mart - Web Sec"/>
+		<comboitem label="CCR China Zizhu - Web Sec"/>
+		<comboitem label="CCR Russia Nizhny - Web Sec"/>
+		<comboitem label="GAR India Bangalore SRR - Web Sec" selected="true"/>
+		<comboitem label="GAR India Bangalore BGA - Web Sec"/>
+		<comboitem label="GAR Malaysia Penang - Web Sec"/>
+		<comboitem label="GER Germany Munich - Web Sec"/>
+		<comboitem label="GER Ireland Leixlip - Web Sec"/>
+		<comboitem label="GER Israel Haifa - Web Sec"/>
+		<comboitem label="GER Poland Gdansk - Web Sec"/>
+		<comboitem label="LAR Mexico Guadalajara - Web Sec"/>
+		<comboitem label="AMR Canada Toronto BLR - Web Sec"/>
+		<comboitem label="LAR Costa Rica - Web Sec"/>
+		<comboitem label="GAR Taiwan - Web Sec"/>
+		<comboitem label="GER Denmark Herlev"/>
+	</combobox>
+	<application disableQuit="false"/>
+	<preferences>
+		<row>
+			<checkbox id="AutoConnectOnStart" label="Start VPN when AnyConnect is started" checked="true" disabled="false" OnPress="AutoConnectOnStart_OnPress" OnPressID="AutoConnectOnStart"/>
+		</row>
+		<row>
+			<checkbox id="MinimizeOnConnect" label="Minimize AnyConnect on VPN connect" checked="true" disabled="false" OnPress="MinimizeOnConnect_OnPress" OnPressID="MinimizeOnConnect"/>
+		</row>
+		<row>
+			<checkbox id="LocalLanAccess" label="Allow local (LAN) access when using VPN (if configured)" checked="true" disabled="false" OnPress="LocalLanAccess_OnPress" OnPressID="LocalLanAccess"/>
+		</row>
+		<row>
+			<checkbox id="DisableCaptivePortalDetection" label="Disable Captive Portal Detection" checked="false" disabled="false" OnPress="DisableCaptivePortalDetection_OnPress" OnPressID="DisableCaptivePortalDetection"/>
+		</row>
+		<row>
+			<checkbox id="AutoReconnect" label="Enable automatic VPN reconnect" checked="true" disabled="false" OnPress="AutoReconnect_OnPress" OnPressID="AutoReconnect"/>
+		</row>
+		<row>
+			<label id="AutoReconnectBehavior_lbl" value="Upon waking from sleep mode:" disabled="false" class="pref-indent"/>
+			<combobox id="AutoReconnectBehavior" editable="false" disabled="false" OnSelect="AutoReconnectBehavior_OnSelect" OnSelectID="AutoReconnectBehavior">
+				<comboitem label="Do not reconnect"/>
+				<comboitem label="Reconnect" selected="true"/>
+			</combobox>
+		</row>
+		<row>
+			<checkbox id="BlockUntrustedServers" label="Block connections to untrusted servers" checked="true" disabled="false" OnPress="BlockUntrustedServers_OnPress" OnPressID="BlockUntrustedServers"/>
+		</row>
+	</preferences>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="popup">
+	<popup timestamp="3/30/2022 1:08:20 PM" id="" type="notification">
+		<text value="Connected: GAR India Bangalore SRR - Web Sec" sensitive="false"/>
+	</popup>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" timestamp="3/30/2022 1:08:20 PM">
+	<application show="false"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" timestamp="3/30/2022 1:08:20 PM">
+	<label id="simple_status" value="Connected to GAR India Bangalore SRR - Web Sec." tooltip="Connected to GAR India Bangalore SRR - Web Sec." sensitive="false"/>
+	<log messagehistory="Connected to GAR India Bangalore SRR - Web Sec." sensitive="false"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="apilog" tag="apilog" timestamp="3/30/2022 1:08:40 PM">
+	<statusnotification AgentStatus="ok" strV4ProtectionStatus="openNotRequired" strV6ProtectionStatus="disabled" strV4IpBlockingStatus="notProtected" bV4IpBlockingConnectionError="Disabled" strV6IpBlockingStatus="notProtected" bV6IpBlockingConnectionError="Disabled" strClientName="hashokkx-mobl" strUserName="" timeLastConnected="1648625504" bLoggingEnabled="Disabled" strSWGAgentStatus="unprotected"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:08:40 PM" state="Good">
+	<label id="simple_tile_label" value="Roaming Security:" tooltip="Navigate to Roaming Security Advanced Window" color="black" hidden="false" disabled="false"/>
+	<label id="simple_status" value="Umbrella is active." tooltip="" color="black" hidden="false" disabled="false"/>
+	<label id="simple_second_status" value=" " tooltip="" color="black" hidden="false" disabled="false"/>
+	<traystate id="tray_state_string" value="Active."/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:08:40 PM">
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_opendns">
+			<listrowcolumn label="Roaming Security"/>
+			<listrow id="stat_id_ipv4_DNS_protection">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Not Required"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_DNS_protection">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:01:44 PM"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:08:40 PM">
+	<preferences/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_connection_info">
+			<listrowcolumn label="DNS/IP Security Information"/>
+			<listrow id="stat_id_ipv4_protection_status">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Not Required"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_dns_encryption">
+				<listrowcolumn label="IPv4 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_blocking">
+				<listrowcolumn label="IPv4 Enforcement Status:"/>
+				<listrowcolumn label="Unprotected"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_protection_status">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_dns_encryption">
+				<listrowcolumn label="IPv6 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_client_name">
+				<listrowcolumn label="Client Name:"/>
+				<listrowcolumn label="hashokkx-mobl"/>
+			</listrow>
+			<listrow id="stat_id_user_name">
+				<listrowcolumn label="User Name:"/>
+				<listrowcolumn label=""/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:01:44 PM"/>
+			</listrow>
+			<listrow id="stat_id_logging">
+				<listrowcolumn label="Logging:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="stat_group_swg_info">
+			<listrowcolumn label="Secure Web Gateway:"/>
+			<listrow id="stat_id_SWG_license_status">
+				<listrowcolumn label="License"/>
+				<listrowcolumn label="Invalid"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="apilog" tag="apilog" timestamp="3/30/2022 1:09:01 PM">
+	<statusnotification AgentStatus="ok" strV4ProtectionStatus="openNotRequired" strV6ProtectionStatus="disabled" strV4IpBlockingStatus="notProtected" bV4IpBlockingConnectionError="Disabled" strV6IpBlockingStatus="notProtected" bV6IpBlockingConnectionError="Disabled" strClientName="hashokkx-mobl" strUserName="" timeLastConnected="1648625941" bLoggingEnabled="Disabled" strSWGAgentStatus="unprotected"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:01 PM" state="Good">
+	<label id="simple_tile_label" value="Roaming Security:" tooltip="Navigate to Roaming Security Advanced Window" color="black" hidden="false" disabled="false"/>
+	<label id="simple_status" value="Umbrella is active." tooltip="" color="black" hidden="false" disabled="false"/>
+	<label id="simple_second_status" value=" " tooltip="" color="black" hidden="false" disabled="false"/>
+	<traystate id="tray_state_string" value="Active."/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:01 PM">
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_opendns">
+			<listrowcolumn label="Roaming Security"/>
+			<listrow id="stat_id_ipv4_DNS_protection">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Not Required"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_DNS_protection">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:09:01 PM"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:01 PM">
+	<preferences/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_connection_info">
+			<listrowcolumn label="DNS/IP Security Information"/>
+			<listrow id="stat_id_ipv4_protection_status">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Not Required"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_dns_encryption">
+				<listrowcolumn label="IPv4 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_blocking">
+				<listrowcolumn label="IPv4 Enforcement Status:"/>
+				<listrowcolumn label="Unprotected"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_protection_status">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_dns_encryption">
+				<listrowcolumn label="IPv6 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_client_name">
+				<listrowcolumn label="Client Name:"/>
+				<listrowcolumn label="hashokkx-mobl"/>
+			</listrow>
+			<listrow id="stat_id_user_name">
+				<listrowcolumn label="User Name:"/>
+				<listrowcolumn label=""/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:09:01 PM"/>
+			</listrow>
+			<listrow id="stat_id_logging">
+				<listrowcolumn label="Logging:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="stat_group_swg_info">
+			<listrowcolumn label="Secure Web Gateway:"/>
+			<listrow id="stat_id_SWG_license_status">
+				<listrowcolumn label="License"/>
+				<listrowcolumn label="Invalid"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="apilog" tag="apilog" timestamp="3/30/2022 1:09:15 PM">
+	<statusnotification AgentStatus="ok" strV4ProtectionStatus="reserved" strV6ProtectionStatus="disabled" strV4IpBlockingStatus="notProtected" bV4IpBlockingConnectionError="Disabled" strV6IpBlockingStatus="notProtected" bV6IpBlockingConnectionError="Disabled" strClientName="hashokkx-mobl" strUserName="" timeLastConnected="1648625941" bLoggingEnabled="Disabled" strSWGAgentStatus="unprotected"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:15 PM" state="Good">
+	<label id="simple_tile_label" value="Roaming Security:" tooltip="Navigate to Roaming Security Advanced Window" color="black" hidden="false" disabled="false"/>
+	<label id="simple_status" value="Umbrella is active." tooltip="" color="black" hidden="false" disabled="false"/>
+	<label id="simple_second_status" value=" " tooltip="" color="black" hidden="false" disabled="false"/>
+	<traystate id="tray_state_string" value="Active."/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:15 PM">
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_opendns">
+			<listrowcolumn label="Roaming Security"/>
+			<listrow id="stat_id_ipv4_DNS_protection">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_DNS_protection">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:09:01 PM"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:15 PM">
+	<preferences/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_connection_info">
+			<listrowcolumn label="DNS/IP Security Information"/>
+			<listrow id="stat_id_ipv4_protection_status">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_dns_encryption">
+				<listrowcolumn label="IPv4 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_blocking">
+				<listrowcolumn label="IPv4 Enforcement Status:"/>
+				<listrowcolumn label="Unprotected"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_protection_status">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_dns_encryption">
+				<listrowcolumn label="IPv6 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_client_name">
+				<listrowcolumn label="Client Name:"/>
+				<listrowcolumn label="hashokkx-mobl"/>
+			</listrow>
+			<listrow id="stat_id_user_name">
+				<listrowcolumn label="User Name:"/>
+				<listrowcolumn label=""/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:09:01 PM"/>
+			</listrow>
+			<listrow id="stat_id_logging">
+				<listrowcolumn label="Logging:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="stat_group_swg_info">
+			<listrowcolumn label="Secure Web Gateway:"/>
+			<listrow id="stat_id_SWG_license_status">
+				<listrowcolumn label="License"/>
+				<listrowcolumn label="Invalid"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="apilog" tag="apilog" timestamp="3/30/2022 1:09:16 PM">
+	<statusnotification AgentStatus="ok" strV4ProtectionStatus="odnsTrustedNetwork" strV6ProtectionStatus="disabled" strV4IpBlockingStatus="notProtected" bV4IpBlockingConnectionError="Disabled" strV6IpBlockingStatus="notProtected" bV6IpBlockingConnectionError="Disabled" strClientName="hashokkx-mobl" strUserName="" timeLastConnected="1648625941" bLoggingEnabled="Disabled" strSWGAgentStatus="unprotected"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:16 PM" state="Good">
+	<label id="simple_tile_label" value="Roaming Security:" tooltip="Navigate to Roaming Security Advanced Window" color="black" hidden="false" disabled="false"/>
+	<label id="simple_status" value="Umbrella is active." tooltip="" color="black" hidden="false" disabled="false"/>
+	<label id="simple_second_status" value=" " tooltip="" color="black" hidden="false" disabled="false"/>
+	<traystate id="tray_state_string" value="Active."/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:16 PM">
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_opendns">
+			<listrowcolumn label="Roaming Security"/>
+			<listrow id="stat_id_ipv4_DNS_protection">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled (trusted network)"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_DNS_protection">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:09:01 PM"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:16 PM">
+	<preferences/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_connection_info">
+			<listrowcolumn label="DNS/IP Security Information"/>
+			<listrow id="stat_id_ipv4_protection_status">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled (trusted network)"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_dns_encryption">
+				<listrowcolumn label="IPv4 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_blocking">
+				<listrowcolumn label="IPv4 Enforcement Status:"/>
+				<listrowcolumn label="Unprotected"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_protection_status">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_dns_encryption">
+				<listrowcolumn label="IPv6 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_client_name">
+				<listrowcolumn label="Client Name:"/>
+				<listrowcolumn label="hashokkx-mobl"/>
+			</listrow>
+			<listrow id="stat_id_user_name">
+				<listrowcolumn label="User Name:"/>
+				<listrowcolumn label=""/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:09:01 PM"/>
+			</listrow>
+			<listrow id="stat_id_logging">
+				<listrowcolumn label="Logging:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="stat_group_swg_info">
+			<listrowcolumn label="Secure Web Gateway:"/>
+			<listrow id="stat_id_SWG_license_status">
+				<listrowcolumn label="License"/>
+				<listrowcolumn label="Invalid"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="apilog" tag="apilog" timestamp="3/30/2022 1:09:49 PM">
+	<statusnotification AgentStatus="ok" strV4ProtectionStatus="odnsTrustedNetwork" strV6ProtectionStatus="disabled" strV4IpBlockingStatus="notProtected" bV4IpBlockingConnectionError="Disabled" strV6IpBlockingStatus="notProtected" bV6IpBlockingConnectionError="Disabled" strClientName="hashokkx-mobl" strUserName="" timeLastConnected="1648625941" bLoggingEnabled="Disabled" strSWGAgentStatus="unprotected"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:49 PM" state="Good">
+	<label id="simple_tile_label" value="Roaming Security:" tooltip="Navigate to Roaming Security Advanced Window" color="black" hidden="false" disabled="false"/>
+	<label id="simple_status" value="Umbrella is active." tooltip="" color="black" hidden="false" disabled="false"/>
+	<label id="simple_second_status" value=" " tooltip="" color="black" hidden="false" disabled="false"/>
+	<traystate id="tray_state_string" value="Active."/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:49 PM">
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_opendns">
+			<listrowcolumn label="Roaming Security"/>
+			<listrow id="stat_id_ipv4_DNS_protection">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled (trusted network)"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_DNS_protection">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:09:01 PM"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.umbrella" type="update" timestamp="3/30/2022 1:09:49 PM">
+	<preferences/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_connection_info">
+			<listrowcolumn label="DNS/IP Security Information"/>
+			<listrow id="stat_id_ipv4_protection_status">
+				<listrowcolumn label="IPv4 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled (trusted network)"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_dns_encryption">
+				<listrowcolumn label="IPv4 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_ipv4_blocking">
+				<listrowcolumn label="IPv4 Enforcement Status:"/>
+				<listrowcolumn label="Unprotected"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_protection_status">
+				<listrowcolumn label="IPv6 DNS Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="stat_id_ipv6_dns_encryption">
+				<listrowcolumn label="IPv6 DNS Encryption:"/>
+				<listrowcolumn label="Off"/>
+			</listrow>
+			<listrow id="stat_id_client_name">
+				<listrowcolumn label="Client Name:"/>
+				<listrowcolumn label="hashokkx-mobl"/>
+			</listrow>
+			<listrow id="stat_id_user_name">
+				<listrowcolumn label="User Name:"/>
+				<listrowcolumn label=""/>
+			</listrow>
+			<listrow id="stat_id_last_connected">
+				<listrowcolumn label="Last Connected:"/>
+				<listrowcolumn label="Today 01:09:01 PM"/>
+			</listrow>
+			<listrow id="stat_id_logging">
+				<listrowcolumn label="Logging:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="stat_group_swg_info">
+			<listrowcolumn label="Secure Web Gateway:"/>
+			<listrow id="stat_id_SWG_license_status">
+				<listrowcolumn label="License"/>
+				<listrowcolumn label="Invalid"/>
+			</listrow>
+			<listrow id="stat_id_SWG_protection_status">
+				<listrowcolumn label="Web Protection Status:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" tag="stat_update" timestamp="3/30/2022 1:16:19 PM">
+	<label id="simple_substatus_left" value="02:49:57 (9 Hours 10 Minutes Remaining)"/>
+	<label id="simple_substatus_right" value="IPv4"/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_connection_info">
+			<listrowcolumn label="Connection Information"/>
+			<listrow id="id_stat_state">
+				<listrowcolumn label="State:"/>
+				<listrowcolumn label="Connected"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Tunnel Mode (IPv4):"/>
+				<listrowcolumn label="Split Exclude"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Tunnel Mode (IPv6):"/>
+				<listrowcolumn label="Drop All Traffic"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_exc">
+				<listrowcolumn label="Dynamic Tunnel Exclusion:"/>
+				<listrowcolumn label="accompany.com amrcmcmg01.blob.core.windows.net amrcmcmg01.intel.com amrcmcmg01.table.core.windows.net bmc.cdn.office.net ec.hls.kontiki.com ec.kontiki.com ec.live.kontiki.com eu1.kontiki.com garcmcmg01.blob.core.windows.net garcmcmg01.intel.com garcmcmg01.table.core.windows.net gercmcmg01.blob.core.windows.net gercmcmg01.intel.com gercmcmg01.table.core.windows.net kollective.app quovadisglobal.com wc1.kontiki.com webex.com"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_inc">
+				<listrowcolumn label="Dynamic Tunnel Inclusion:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Duration:"/>
+				<listrowcolumn label="02:49:57"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect:"/>
+				<listrowcolumn label="9 Hours 10 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_stat_mgmt_tun_state">
+				<listrowcolumn label="Management Connection State:"/>
+				<listrowcolumn label="Disconnected (user tunnel active)"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_addr_info">
+			<listrowcolumn label="Address Information"/>
+			<listrow id="id_client_addr_ipv4">
+				<listrowcolumn label="Client (IPv4):"/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_client_addr_ipv6">
+				<listrowcolumn label="Client (IPv6):"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server:"/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_bytes">
+			<listrowcolumn label="Bytes"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="69841895"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="133156637"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_frames">
+			<listrowcolumn label="Frames"/>
+			<listrow id="id_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="151577"/>
+			</listrow>
+			<listrow id="id_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="179543"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_ctrl_frames">
+			<listrowcolumn label="Control Frames"/>
+			<listrow id="id_ctrl_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="867"/>
+			</listrow>
+			<listrow id="id_ctrl_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="349"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_client_mgmt">
+			<listrowcolumn label="Client Management"/>
+			<listrow id="id_admin_domain">
+				<listrowcolumn label="Administrative Domain:"/>
+				<listrowcolumn label="Undefined"/>
+			</listrow>
+			<listrow id="id_profile_name">
+				<listrowcolumn label="Profile Name:"/>
+				<listrowcolumn label="NetSecAnyConnect.xml"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_transport_info">
+			<listrowcolumn label="Transport Information"/>
+			<listrow id="id_protocol">
+				<listrowcolumn label="Protocol:"/>
+				<listrowcolumn label="DTLSv1.2"/>
+			</listrow>
+			<listrow id="id_cipher">
+				<listrowcolumn label="Cipher:"/>
+				<listrowcolumn label="ECDHE_ECDSA_AES256_GCM_SHA384"/>
+			</listrow>
+			<listrow id="id_compression">
+				<listrowcolumn label="Compression:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_proxy_addr">
+				<listrowcolumn label="Proxy Address:"/>
+				<listrowcolumn label="No Proxy"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_feature_config">
+			<listrowcolumn label="Feature Configuration"/>
+			<listrow id="id_fips_mode">
+				<listrowcolumn label="FIPS Mode:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="id_tnd_mode">
+				<listrowcolumn label="Trusted Network Detection:"/>
+				<listrowcolumn label="Enabled"/>
+			</listrow>
+			<listrow id="id_always_on_mode">
+				<listrowcolumn label="Always On:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_sms">
+			<listrowcolumn label="Secure Mobility Solution"/>
+			<listrow id="id_secure_mobility_soln_status">
+				<listrowcolumn label="Status:"/>
+				<listrowcolumn label="Unconfirmed"/>
+			</listrow>
+			<listrow id="id_secure_mobility_soln_appl">
+				<listrowcolumn label="Appliance:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_vpn">
+			<listrowcolumn label="VPN (Connected)"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Bytes Sent: "/>
+				<listrowcolumn label="69841895"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Bytes Received: "/>
+				<listrowcolumn label="133156637"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Time Connected: "/>
+				<listrowcolumn label="02:49:57"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect: "/>
+				<listrowcolumn label="9 Hours 10 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Client Address (IPv4): "/>
+				<listrowcolumn label="10.145.32.217"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Client Address (IPv6): "/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server Address: "/>
+				<listrowcolumn label="192.55.79.45"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
